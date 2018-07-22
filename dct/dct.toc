@@ -1,0 +1,25 @@
+## Interface: 80000
+## Title: [Combat] Dennis's Combat Text Unofficial
+## Notes: Thanks for: MagicDragoon, Dove, 水沐森林, 神恋歌(繁体化), Karlock
+## Title-zhCN: [战斗] |cffffe00a<|r|cffff7d0aDCTU|r|cffffe00a>|r 战斗指示器
+## Notes-zhCN: |cffbc8f8f显示你战斗中受到的各种信息|n命令:/dct|r
+## Title-zhTW: [戰鬥] |cffffe00a<|r|cffff7d0aDCTU|r|cffffe00a>|r 戰鬥指示器
+## Notes-zhTW: |cffbc8f8f顯示你戰鬥中受到的各種資訊|n命令:/dct|r
+## Author: Dennie
+## SavedVariables: DCT_SAVE, DCT_FONT_SAVE
+## SavedVariablesPerCharacter: DCT_SAVE_PERCHAR
+
+DCT_ui_patch.lua
+DCT_font.lua
+DCT_default_config.Lua
+locals\cn_DCT_default_config.Lua
+locals\tw_DCT_default_config.Lua
+#@locals\en_DCT_default_config.Lua
+
+DCT_anibase.lua
+DCT_aniframe.lua
+DCT_cd.lua
+DCT.lua
+DCT.xml
+DCT_castbar.lua
+DCT_castbar.xml
