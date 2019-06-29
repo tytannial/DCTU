@@ -204,7 +204,7 @@ function DCT_OnLoad(self)
     
     DCT_EVENT_FUNC["PLAYER_REGEN_ENABLED"] = DCT_ProcLeaveCombat
     
-    -- DCT_EVENT_FUNC["SPELL_UPDATE_COOLDOWN"] = DCT_ProcCooldown
+    DCT_EVENT_FUNC["SPELL_UPDATE_COOLDOWN"] = DCT_ProcCooldown
     
     DCT_EVENT_FUNC["VARIABLES_LOADED"] = DCT_OnEvent
     
@@ -250,7 +250,7 @@ function DCT_Init(self)
     
     --Cooldown
     -- self:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
-    -- self:RegisterEvent("SPELL_UPDATE_COOLDOWN")
+    self:RegisterEvent("SPELL_UPDATE_COOLDOWN")
     -- 版本控制
     if DCT_SAVE_PERCHAR and (not DCT_SAVE_PERCHAR["DCT_SaveVer"] or DCT_SAVE_PERCHAR["DCT_SaveVer"] < DCT_DEFAULT_CFG["DCT_SaveVer"]) then
         DCT_SAVE_PERCHAR = nil
@@ -1163,8 +1163,8 @@ function DCT_BattleLogAnalysis(self, gevent, timestamp, combatevent, hideCaster,
         end
     end
 
-    -- 去尾 以免出现奇怪的小数数值
-    if dct_amount then
+    -- 去尾 以免出现奇怪的小数数值 -- Karlock:避免坑
+    if dct_amount and type(dct_amount) == "number" then
         dct_amount = math.floor(dct_amount)
     end
     

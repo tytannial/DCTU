@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 80200
 ## Title: [Combat] <DCTU> SpellAlert
 ## Notes: |cffbc8f8fProvide spell alert for DCT.|r
 ## Title-zhCN: [战斗] |cffffe00a<|r|cffff7d0aDCTU|r|cffffe00a>|r 法术预警模块

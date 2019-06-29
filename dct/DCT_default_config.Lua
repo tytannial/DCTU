@@ -45,8 +45,8 @@ DCT_DEFAULT_CFG = {
     
     ["DCT_SHOWENVIRONMENTAL"] = {frame = 1, color = {1, 0, 0}, colorEx = {{1, 1, 0}, {1, 0, 0}}, },
     ["DCT_SHOWDISPELLED"] = {frame = 1, color = {1, 0, 0}, colorEx = {{1, 1, 0}, {1, 0, 0}}, },
-    ["DCT_SHOWLOWHEALTH"] = {per = 40, frame = 4, color = {1, 0.3, 0.3}, colorEx = {{1, 1, 0}, {1, 0, 0}}, sound = "Sound\\Spells\\ShaysBell.ogg"},
-    ["DCT_SHOWLOWMANA"] = {per = 40, frame = 4, color = {0.3, 0.3, 1}, colorEx = {{1, 1, 0}, {1, 0, 0}}, sound = "Sound\\Spells\\bind2_Impact_Base.ogg"},
+    ["DCT_SHOWLOWHEALTH"] = {per = 40, frame = 4, color = {1, 0.3, 0.3}, colorEx = {{1, 1, 0}, {1, 0, 0}}, sound = "568154"},
+    ["DCT_SHOWLOWMANA"] = {per = 40, frame = 4, color = {0.3, 0.3, 1}, colorEx = {{1, 1, 0}, {1, 0, 0}}, sound = "568924"},
     ["DCT_SHOWEXTRAATTACKS"] = {frame = 5, color = {1, 1, 1}, colorEx = {{1, 1, 0}, {1, 0, 0}}, sound = ""},
     ["DCT_SHOWSPECBUFF"] = {frame = 4, color = {0, 1, 0}, colorEx = {{1, 0, 0}, {1, 1, 0}}, sound = ""},
     ["DCT_SHOWSPECBUFFFADE"] = {frame = 0, color = {0.8, 0.3, 0.3}, colorEx = {{1, 0, 0}, {1, 1, 0}}, per = 3},

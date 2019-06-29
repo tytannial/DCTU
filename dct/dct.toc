@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 80200
 ## Title: [Combat] Dennis's Combat Text Unofficial
 ## Notes: Thanks for: MagicDragoon, Dove, 水沐森林, 神恋歌(繁体化), Karlock
 ## Title-zhCN: [战斗] |cffffe00a<|r|cffff7d0aDCTU|r|cffffe00a>|r 战斗指示器

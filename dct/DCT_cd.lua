@@ -4,7 +4,7 @@ local ActiveC = 0
 function DCT_ProcCooldown(self, event, arg1, arg2)	
 	if DCT_Player["DCT_SHOWCOOLDOWN"].frame == 0 then return;end
 	local cdp = DCT_Player["DCT_SPECCOOLDOWN"]
-	
+
 	local n, duration, enabled
 	local spellName
 	local ctime = GetTime()

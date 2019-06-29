@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 80200
 ## Title: [Combat] <DCTU> Damage
 ## Notes: |cffbc8f8fShow damage texts you attacking for DCT.|r
 ## Title-zhCN: [战斗] |cffffe00a<|r|cffff7d0aDCTU|r|cffffe00a>|r 伤害模块
